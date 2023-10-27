@@ -18,7 +18,7 @@ nav {
     justify-content: space-between;
     background-color: #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: 3rem 11rem;
+    margin: 2rem 7rem;
     padding: 20px 40px;
     border-radius: 20px;
 }
@@ -45,4 +45,44 @@ nav {
     border-radius: 10px;
     background: #016A70;
     color: #fff;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 3.3rem 10.25rem;
+}
+
+.mainImg {
+    width: 25rem;
+    height: 21rem;
+}
+
+.mainHello {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+main h1 {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 38px;
+} 
+
+.mainDescription {
+    color:#FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.mainButton {
+    margin-top: 1.8rem;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-weight: 600;
+    background-color: transparent;
 }
